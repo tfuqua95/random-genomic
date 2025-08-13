@@ -1,0 +1,21 @@
+name: random_genomic
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - biopython
+  - flowcal
+  - logomaker
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - seaborn
+  - statsmodels
+  - matplotlib-venn
+  - astropy  # for AST if you need it (optional)
+  - pip
+  - pip:
+      - matplotlib-venn
